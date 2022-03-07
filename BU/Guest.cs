@@ -9,10 +9,10 @@ namespace DataAccessLayerExample.BU
     internal class Guest
     {
         public string Name { get; set; }
-        public DateTime BirthDate { get; set; }
+        public string BirthDate { get; set; }
         public Party Party { get; set; }
 
-        public Guest(string name, DateTime birthDate)
+        public Guest(string name, string birthDate)
         {
             Name = name; 
             BirthDate = birthDate; 
